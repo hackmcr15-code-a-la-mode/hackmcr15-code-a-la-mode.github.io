@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Arcana by HTML5 UP</title>
+		<title></title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -29,33 +29,48 @@
 			<div id="header">
 						
 				<!-- Logo -->
-					<h1><a href="{{ site.baseurl }}/index.html" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
+					<h1><a href="{{ site.baseurl }}/index.html" id="logo">Molecular Viz Hack <em>by Code A La Mode</em></a></h1>
+
+    <div class="custom-links">
+      
+        
+            <a class="icon-twitter" href="https://twitter.com/UoMBioinfoSoc"  title="Follow me on twitter"">
+              <i class="fa fa-twitter"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        
+      
+        
+            <a class="icon-facebook" href="https://facebook.com/UoMBioinfoSoc"  title="Connect with me facebook"">
+              <i class="fa fa-facebook"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        
+      
+        
+            <a class="icon-github" href="https://github.com/UoMBioinfoSoc"  title="Check out our source code on GitHub"">
+              <i class="fa fa-github"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        
+          </div>
+
 				
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							{% assign current = page.url | downcase | split: '/' %}
 							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+							<li {% if current[1] == 'about' %}class="current"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
 							<li>
-								<a href="">Dropdown</a>
+								<a href="">App Walkthrough</a>
 								<ul>
-									<li><a href="#">Lorem dolor</a></li>
-									<li><a href="#">Magna phasellus</a></li>
-									<li><a href="#">Etiam sed tempus</a></li>
-									<li>
-										<a href="">Submenu</a>
-										<ul>
-											<li><a href="#">Lorem dolor</a></li>
-											<li><a href="#">Phasellus magna</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam nisl</a></li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Veroeros feugiat</a></li>
+									<li><a href="#">PDB to FBV conversion</a></li>
+									<li><a href="#">Model hosting in LMV buckets</a></li>
+									<li><a href="#">Web app-ification</a></li>
+									<li><a href="#">Extensions</a></li>
 								</ul>
 							</li>
-							<li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
 							<li {% if current[1] == 'left-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
 							<li {% if current[1] == 'right-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
 							<li {% if current[1] == 'two-sidebar.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/two-sidebar.html">Two Sidebar</a></li>
