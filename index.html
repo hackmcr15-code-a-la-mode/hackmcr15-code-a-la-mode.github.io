@@ -18,7 +18,7 @@ layout: default
 					<div class="box highlight">
 						<i class="icon major fa-paper-plane"></i>
 						<h3>Message us</h3>
-						<p>https://www.facebook.com/UoMBioinfoSoc?fref=ts</p>
+						<p><a href="https://www.facebook.com/UoMBioinfoSoc?fref=ts"></a></p>
 					</div>
 				</section>
 				<section class="4u">
@@ -36,54 +36,20 @@ layout: default
 		<div class="container">
 			<header class="major">
 				<h2>About our hack</h2>
-				<p>With a much smaller subtitle hanging out just below it</p>
-			</header>
-		</div>
-	</section>
+				<p>Using the browser-based 3D Large-Model Viewer API provided by Autodesk we aim to be able to provide beautiful, modular and user annotated 3D models of proteins and other molecular structures. Today most online protein 3D viewers are rather crude and so this application could possesses a huge promise for the provision of high quality scientific communication and educational tools, as well as potentially assisting in research directly.
 
-<!-- Posts -->
-	<section class="wrapper style1">
-		<div class="container">
-			<div class="row">
-				<section class="6u">
-					<div class="box post">
-						<a href="#" class="image left"><img src="{{ site.baseurl }}/assets/images/pic01.jpg" alt="" /></a>
-						<div class="inner">
-							<h3>The First Thing</h3>
-							<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-						</div>
-					</div>
-				</section>
-				<section class="6u">
-					<div class="box post">
-						<a href="#" class="image left"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /></a>
-						<div class="inner">
-							<h3>The Second Thing</h3>
-							<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-						</div>
-					</div>
-				</section>
-			</div>
-			<div class="row">
-				<section class="6u">
-					<div class="box post">
-						<a href="#" class="image left"><img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt="" /></a>
-						<div class="inner">
-							<h3>The Third Thing</h3>
-							<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-						</div>
-					</div>
-				</section>
-				<section class="6u">
-					<div class="box post">
-						<a href="#" class="image left"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt="" /></a>
-						<div class="inner">
-							<h3>The Fourth Thing</h3>
-							<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-						</div>
-					</div>
-				</section>
-			</div>
+There is a wealth of structural and atomic location data for molecular molecular to be found on the well-established and still rapidly expanding Protein data base (PDB). We are therefore building a pipeline to convert the PDB formatted code into an .fbx file in order for it to be read by the Autodesk software.
+
+The pipeline is set up as follows:
+
+Automating successive file conversion from archival PDB code to VRML format and then through .wrl file format (via UCSF Chimera) into the LMV compatible .fbx file format (via Blender).
+
+Hosting the converted format model files in the LMV API via their bucket storage.
+
+Checking against a list of already processed PDB codes, or generation of new 3D models and uploading to Autodesk.com.
+
+Potential room for development: working with customised extensions for any given structure.</p>
+			</header>
 		</div>
 	</section>
 	
