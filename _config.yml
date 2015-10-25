@@ -1,4 +1,28 @@
-name: Protein Structure
+name: "Molecular Viz Hack"
 description: Using the browser-based 3D Large-Model Viewer API provided by Autodesk we aim to be able to provide beautiful, modular and user annotated 3D models of proteins and other molecular structures. 
 paginate: 10
 baseurl: '/Arcana-Jekyll-Theme'
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+gems:
+  - jemoji
+
+# Site settings
+title: "Molecular Viz Hack"
+description: "Bioinformatics Society at the University of Manchester Faculty of Life Sciences. We organise training events and seminars in computational biology."
+
+email: uombioinfosoc@gmail.com
+# logo
+logo: "/assets/images/logo_300x300.jpg"
+# cover photo
+cover: "/assets/images/logo_banner.jpg"
+
+author: 'Code A La Mode'
+author_image: "/assets/images/logo_300x300.jpg"
+
+paginate:	5
+
+url: "http://UoMBioinfoSoc.github.io" # the base hostname & protocol for your site
+baseurl: ""
