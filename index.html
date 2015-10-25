@@ -21,28 +21,11 @@ There is a wealth of structural and atomic location data for molecular molecular
 
 The pipeline is set up as follows:
 
-Automating successive file conversion from archival PDB code to VRML format and then through .wrl file format (via UCSF Chimera) into the LMV compatible .fbx file format (via Blender).
-
-Hosting the converted format model files in the LMV API via their bucket storage.
-
-Checking against a list of already processed PDB codes, or generation of new 3D models and uploading to Autodesk.com.
-
 Potential room for development: working with customised extensions for any given structure.</p>
 			</header>
 		</div>
 	</section>
-
-<!-- Viewer -->	
-
-<div style="
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-"><iframe src="http://localhost:3000/" style="
-    width: 100%;
-    height: 700px;
-  
-"></iframe></div>
-
+	
 <!-- Highlights -->
 	<section class="wrapper style1">
 		<div class="container">
@@ -53,10 +36,17 @@ Potential room for development: working with customised extensions for any given
 The app is organised in four general steps, the latter of which are open to further development:
 
 <ol type="1">
-  <li id="conv-trans"><strong>1. Conversion and translation</strong></li>
-  <li id="lmv-hosting"><strong>2. Hosting models in LMV via the View and Data API</strong></li>
-  <li id="web-display"><strong>3. Webpage hosting for dynamic model display</strong></li>
-  <li id="extensions"><strong>4. Extensible models: annotation and exploration</strong></li>
+  <p><li id="conv-trans"><br><strong>1. Conversion and translation</strong></br>
+	 Automating successive file conversion from archival PDB code to VRML format and then through .wrl file format (via UCSF Chimera) into the LMV compatible .fbx file format (via Blender).</p></li>
+
+  <p><li id="lmv-hosting"><br><strong>2. Hosting models in LMV via the View and Data API</strong></br>
+	Hosting the converted format model files in the LMV API via their bucket storage.</p></li>
+
+  <p><li id="web-display"><strong>3. Webpage hosting for dynamic model display</strong></br>
+	Checking against a list of already processed PDB codes, or generation of new 3D models and uploading to Autodesk.com.</p>
+
+  <p><li id="extensions"><br><strong>4. Extensible models: annotation and exploration</strong></li></br>
+	Potential room for development: working with customised extensions for any given structure.</p></li>
 </ol>
 			</header>
 
