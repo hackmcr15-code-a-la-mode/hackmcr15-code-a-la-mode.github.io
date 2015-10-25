@@ -61,14 +61,14 @@
 						<ul>
 							{% assign current = page.url | downcase | split: '/' %}
 							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
-							<li {% if current[1] == 'about' %}class="current"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
+							<li {% if current[1] == 'about' %}class="current"{% endif %}><a href="#about-our-hack">About</a></li>
 							<li>
-								<a href="">App Walkthrough</a>
+								<a href="#app-walkthrough">App Walkthrough</a>
 								<ul>
-									<li><a href="#">PDB to FBV conversion</a></li>
-									<li><a href="#">Model hosting in LMV buckets</a></li>
-									<li><a href="#">Web app-ification</a></li>
-									<li><a href="#">Extensions</a></li>
+									<li><a href="#conv-trans">PDB to FBV conversion</a></li>
+									<li><a href="#lmv-hosting">Model hosting in LMV buckets</a></li>
+									<li><a href="#web-display">Web app-ification</a></li>
+									<li><a href="#extensions">Extensions</a></li>
 								</ul>
 							</li>
 						</ul>
