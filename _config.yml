@@ -1,0 +1,4 @@
+name: Protein Structure
+description: Using the browser-based 3D Large-Model Viewer API provided by Autodesk we aim to be able to provide beautiful, modular and user annotated 3D models of proteins and other molecular structures. 
+paginate: 10
+baseurl: '/Arcana-Jekyll-Theme'
